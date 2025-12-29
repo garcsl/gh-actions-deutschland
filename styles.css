@@ -1,21 +1,25 @@
-/* Applies to the entire body of the HTML document (except where overridden by more specific
-selectors). */
+html {
+    font-family: sans-serif;
+}
+
 body {
-  margin: 25px;
-  background-color: rgb(240,240,240);
-  font-family: arial, sans-serif;
-  font-size: 14px;
+    margin: 0;
+    text-align: center;
+    background-color: #322e2d;
+    color: #f6f0ee;
 }
 
-/* Applies to all <h1>...</h1> elements. */
+#logo {
+    width: 7rem;
+    height: 7rem;
+    object-fit: contain;
+    margin-top: 2rem;
+}
+
 h1 {
-  font-size: 35px;
-  font-weight: normal;
-  margin-top: 5px;
+    color: #e8d4b2;
 }
 
-/* Applies to all elements with <... class="someclass"> specified. */
-.someclass { color: red; }
-
-/* Applies to the element with <... id="someid"> specified. */
-#someid { color: green; }
+a {
+    color: #fee389;
+}
